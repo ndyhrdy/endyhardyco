@@ -2,7 +2,11 @@
   "base_url": "https://jovial-tesla-c418db.netlify.app",
   "site_title": "Endyhardy.co",
   "site_description": "Web and Mobile App Development Agency",
-  "site_keywords": [],
+  "site_keywords": [
+    "software agency",
+    "web application",
+    "mobile application"
+  ],
   "posts_per_page": 5,
   "twitter_account": "@ndyhrdy",
   "github_account": "ndyhrdy"
