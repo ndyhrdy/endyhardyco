@@ -91,6 +91,24 @@ collections:
                 widget: "string"
                 hint: "Tag name for displaying on the site"
 
+  - name: "main"
+    label: "Main Content"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: "home"
+        label: "Home Page"
+        file: "content/home.json"
+        description: "Home Page Content"
+        fields:
+          - label: "Headline"
+            name: "headline"
+            widget: "string"
+          - label: "Headline Body"
+            name: "headline_body"
+            widget: "text"
+
   - name: "posts"
     label: "Posts"
     folder: "src/pages/posts"
