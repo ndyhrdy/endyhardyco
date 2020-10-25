@@ -122,7 +122,8 @@ collections:
                 widget: "string"
               - label: "Icon"
                 name: "icon"
-                widget: "string"
+                widget: "image"
+                required: false
               - label: "Body"
                 name: "body"
                 widget: "text"
@@ -197,7 +198,8 @@ collections:
         widget: "string"
       - label: "Featured Image"
         name: "featured_image"
-        widget: "string"
+        widget: "image"
+        required: false
       - label: "Body"
         name: "body"
         widget: "markdown"
