@@ -1,15 +1,13 @@
+import config from "../lib/config";
+
 export default function Copyright() {
   return (
-    <>
-      <p>&copy; 2020</p>
-      <style jsx>
-        {`
-          p {
-            font-size: 0.75rem;
-            text-align: center;
-          }
-        `}
-      </style>
-    </>
+    <div className="bg-gray-600 py-2">
+      <div className="container">
+        <p className="text-white">
+          &copy; Copyright {new Date().getFullYear()} {config.site_title}.
+        </p>
+      </div>
+    </div>
   );
 }

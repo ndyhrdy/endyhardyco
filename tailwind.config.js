@@ -34,7 +34,6 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Source Sans Pro", ...defaultTheme.fontFamily.sans],
-        heading: ["Oswald", ...defaultTheme.fontFamily.sans],
       },
     },
   },

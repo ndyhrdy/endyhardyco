@@ -30,7 +30,7 @@ export default function Navigation() {
 
   return (
     <div
-      className={`flex flex-col items-stretch md:block ${
+      className={`fixed top-0 inset-x-0 flex flex-col items-stretch md:block ${
         expanded ? "h-screen" : ""
       }`}
     >
@@ -42,11 +42,11 @@ export default function Navigation() {
               <img
                 src={config.logo_url}
                 alt={config.site_title}
-                className="h-20"
+                className="h-12"
               />
             </a>
           </Link>
-          <ul className="hidden md:flex items-center text-lg text-gray-600 md:-mr-4">
+          <ul className="hidden md:flex items-center text-lg text-gray-500 md:-mr-4">
             {links.map((link) => {
               return (
                 <li key={link.to}>
