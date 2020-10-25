@@ -1,4 +1,19 @@
 {
   "headline": "We deliver unique, reliable and enjoyable web and mobile app experiences.",
-  "headline_body": "Here at EndyHardy.co, we push ourselves to deliver high-quality and fully customized apps, tailored to your needs. We love partnering with clients who want to take their business to the next level, and we are here to help achieve that, from start to finish."
+  "headline_body": "Here at EndyHardy.co, we push ourselves to deliver high-quality and fully customized apps, tailored to your needs. We love partnering with clients who want to take their business to the next level, and we are here to help achieve that, from start to finish.",
+  "services_summary": "End-to-end app development, made exactly how you imagined it. And more.",
+  "services": [
+    {
+      "title": "Mobile App Development",
+      "body": "Developing reliable and user-friendly mobile apps is our specialty. Having a great app for your business is a tried and true way to take it to the next level."
+    },
+    {
+      "title": "Web App Development",
+      "body": "We offer app development for the web across a range of modern technologies, to ensure security, reliability and user-friendliness."
+    },
+    {
+      "title": "App Design and Prototyping",
+      "body": "Have an app idea on top of your head but can't quite visualize it? We take the load off and translate your imagination into something concrete."
+    }
+  ]
 }
